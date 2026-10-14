@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Douaa Stitel - Bootstrap</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<style>
+:root{--pink:#ff5a8a;--light:#fff0f5}
+body{background:var(--light);font-family:'Segoe UI',sans-serif}
+.navbar{background:white!important;box-shadow:0 2px 20px rgba(0,0,0,.08)}
+.text-pink{color:var(--pink)!important}
+.bg-pink{background:var(--pink)!important}
+.btn-pink{background:var(--pink);color:white;border-radius:30px;padding:10px 30px;font-weight:bold}
+.btn-pink:hover{background:#e04a77;color:white}
+.hero{padding:80px 0;background:white;border-radius:0 0 50px 50px}
+.card{border:0;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.07);transition:.3s}
+.card:hover{transform:translateY(-8px)}
+.icon-box{width:60px;height:60px;background:#ffe4ec;color:var(--pink);display:flex;align-items:center;justify-content:center;border-radius:15px;font-size:28px}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+<div class="container">
+<a class="navbar-brand fw-bold" href="#"><span class="text-pink">DOUAA</span> STITEL</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto gap-2">
+<li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+<li class="nav-item"><a class="btn btn-pink ms-lg-3" href="index.html">Mon Portfolio</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<section class="hero">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6">
+<span class="badge bg-light text-pink border px-3 py-2 rounded-pill mb-3"><i class="bi bi-stars"></i> Étudiante Ista Inezegane</span>
+<h1 class="display-5 fw-bold">Je crée des sites <span class="text-pink">modernes</span> avec Bootstrap</h1>
+<p class="text-muted mt-3 lead"> HTML + CSS + Bootstrap 5 - Responsive.</p>
+<div class="d-flex gap-3 mt-4">
+<a href="#services" class="btn btn-pink"><i class="bi bi-arrow-down"></i> Voir mon travail</a>
+<a href="calculatrice.html" class="btn btn-outline-dark rounded-pill px-4">Calculatrice</a>
+</div>
+<div class="d-flex gap-4 mt-5">
+<div><h3 class="fw-bold mb-0">3</h3><small class="text-muted">Projets</small></div>
+<div><h3 class="fw-bold mb-0">100%</h3><small class="text-muted">HTML/CSS/Bootstrap</small></div>
+<div><h3 class="fw-bold mb-0">FST</h3><small class="text-muted">Marrakech</small></div>
+</div>
+</div>
+<div class="col-lg-6 text-center mt-5 mt-lg-0">
+<img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f469-200d-1f4bb.png" style="width:200px" class="img-fluid">
+<div class="bg-white p-3 rounded-4 shadow-sm d-inline-block mt-4"><i class="bi bi-bootstrap-fill text-pink"></i> Bootstrap 5.3 Officiel</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="services" class="py-5">
+<div class="container py-4">
+<div class="text-center mb-5">
+<h2 class="fw-bold">Ce que je maîtrise</h2>
+<p class="text-muted">Seulement 3 technologies - mais bien maîtrisées</p>
+</div>
+<div class="row g-4">
+<div class="col-md-4">
+<div class="card p-4 h-100">
+<div class="icon-box mb-3"><i class="bi bi-code-slash"></i></div>
+<h5 class="fw-bold">HTML5 Sémantique</h5>
+<p class="text-muted small">Structure propre, balises section, nav, card de Bootstrap. Code lisible et validé W3C.</p>
+<span class="badge bg-light text-dark border">HTML</span>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card p-4 h-100">
+<div class="icon-box mb-3"><i class="bi bi-palette"></i></div>
+<h5 class="fw-bold">CSS3 + Custom</h5>
+<p class="text-muted small">Variables, gradients, border-radius, shadows, hover effects. 100% responsive.</p>
+<span class="badge bg-light text-dark border">CSS3</span>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card p-4 h-100">
+<div class="icon-box mb-3"><i class="bi bi-bootstrap"></i></div>
+<h5 class="fw-bold">Bootstrap 5</h5>
+<p class="text-muted small">Grid system, navbar, cards, buttons, badges, utilities.</p>
+<span class="badge bg-pink">Bootstrap 5</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="bg-white py-4 mt-4 text-center border-top">
+<div class="container">
+<p class="mb-0 text-muted small">© 2026 Douaa Stitel<b>HTML + CSS + Bootstrap</b></p>
+<p class="mt-2"><a href="index.html" class="text-pink fw-bold text-decoration-none">← Retour Portfolio</a> | 
+    <a href="calculatrice.html" class="text-pink fw-bold text-decoration-none">Calculatrice →</a></p>
+</div>
+</footer>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</body>
+</html>
