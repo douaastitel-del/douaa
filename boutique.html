@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boutique Douaa Parfums</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<style>
+body{background:#fff8fa}
+.bg-pink{background:#ff5a8a}.text-pink{color:#ff5a8a}
+.btn-pink{background:#ff5a8a;color:#fff;border-radius:30px;font-weight:bold;border:0}
+.btn-pink:hover{background:#e04a77;color:#fff}
+.card{border:0;border-radius:20px;overflow:hidden;box-shadow:0 8px 25px rgba(0,0,0,.07);transition:.3s}
+.card:hover{transform:translateY(-5px);box-shadow:0 15px 35px rgba(0,0,0,.12)}
+.badge-promo{position:absolute;top:15px;left:15px;background:#ff5a8a;color:#fff;padding:6px 12px;border-radius:20px;font-size:12px}
+.price{font-size:22px;font-weight:bold;color:#ff5a8a}
+.old-price{text-decoration:line-through;color:#aaa;font-size:14px}
+</style>
+</head>
+<body>
+
+<nav class="bg-white shadow-sm sticky-top py-2">
+<div class="container d-flex justify-content-between align-items-center">
+<h5 class="m-0 fw-bold"><i class="bi bi-flower1 text-pink"></i> DOUAA PARFUMS</h5>
+<span class="badge bg-light text-dark border"><i class="bi bi-bag"></i> 3 produits</span>
+</div>
+</nav>
+
+<div class="bg-white py-5">
+<div class="container text-center">
+<h1 class="fw-bold display-6">Collection <span class="text-pink">Élégance 2026</span></h1>
+<p class="text-muted">Projet FDE - HTML + CSS + Bootstrap uniquement</p>
+<div class="mt-3">
+<span class="badge bg-light text-dark border px-3 py-2 rounded-pill">Bootstrap Grid</span>
+<span class="badge bg-light text-dark border px-3 py-2 rounded-pill">Cards</span>
+<span class="badge bg-pink px-3 py-2 rounded-pill">Responsive</span>
+</div>
+</div>
+</div>
+
+<div class="container py-5">
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card h-100">
+<div class="position-relative">
+<img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=500" class="w-100" style="height:250px;object-fit:cover">
+<span class="badge-promo">-20% PROMO</span>
+</div>
+<div class="p-4">
+<div class="d-flex justify-content-between align-items-center mb-2">
+<h6 class="fw-bold m-0">Rose Marrakech</h6>
+<small class="text-warning"><i class="bi bi-star-fill"></i> 4.9</small>
+</div>
+<p class="text-muted small">Parfum floral, notes de rose et jasmin. Made in Marrakech.</p>
+<div class="d-flex justify-content-between align-items-center mt-3">
+<div><span class="price">199 DH</span> <span class="old-price">249 DH</span></div>
+<a href="#" class="btn btn-pink btn-sm px-3"><i class="bi bi-cart-plus"></i> Ajouter</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card h-100">
+<div class="position-relative">
+<img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500" class="w-100" style="height:250px;object-fit:cover">
+<span class="badge-promo" style="background:#1e1e2f">NOUVEAU</span>
+</div>
+<div class="p-4">
+<div class="d-flex justify-content-between align-items-center mb-2">
+<h6 class="fw-bold m-0">Oud Royal</h6>
+<small class="text-warning"><i class="bi bi-star-fill"></i> 5.0</small>
+</div>
+<p class="text-muted small">Parfum oriental intense, oud et musc. Pour soirée.</p>
+<div class="d-flex justify-content-between align-items-center mt-3">
+<div><span class="price">349 DH</span></div>
+<a href="#" class="btn btn-dark rounded-pill btn-sm px-3"><i class="bi bi-cart-plus"></i> Ajouter</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card h-100">
+<div class="position-relative">
+<img src="https://images.unsplash.com/photo-1595425959632-34f2822322ce?w=500" class="w-100" style="height:250px;object-fit:cover">
+<span class="badge-promo" style="background:#28a745">BEST SELLER</span>
+</div>
+<div class="p-4">
+<div class="d-flex justify-content-between align-items-center mb-2">
+<h6 class="fw-bold m-0">Jasmin Secret</h6>
+<small class="text-warning"><i class="bi bi-star-fill"></i> 4.8</small>
+</div>
+<p class="text-muted small">Frais et léger, jasmin et vanille. Pour tous les jours.</p>
+<div class="d-flex justify-content-between align-items-center mt-3">
+<div><span class="price">149 DH</span></div>
+<a href="#" class="btn btn-outline-dark rounded-pill btn-sm px-3"><i class="bi bi-cart-plus"></i> Ajouter</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="bg-white rounded-5 p-4 mt-5 shadow-sm">
+<div class="row text-center g-3">
+<div class="col-4"><i class="bi bi-truck text-pink fs-3"></i><p class="small fw-bold mt-2 mb-0">Livraison Gratuite</p><small class="text-muted">Marrakech</small></div>
+<div class="col-4"><i class="bi bi-shield-check text-pink fs-3"></i><p class="small fw-bold mt-2 mb-0">Paiement Sécurisé</p><small class="text-muted">100% safe</small></div>
+<div class="col-4"><i class="bi bi-arrow-return-left text-pink fs-3"></i><p class="small fw-bold mt-2 mb-0">Retour 14j</p><small class="text-muted">Gratuit</small></div>
+</div>
+</div>
+
+<div class="text-center mt-5">
+<a href="index.html" class="btn btn-pink px-5 py-3">← Retour Portfolio</a>
+</div>
+
+</div>
+
+<footer class="text-center py-4 small text-muted">
+© 2026 Boutique Douaa - Projet FDE FST Marrakech - HTML CSS Bootstrap
+</footer>
+</body>
+</html>
